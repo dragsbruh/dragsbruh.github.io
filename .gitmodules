@@ -1,0 +1,3 @@
+[submodule "themes/papermodmod"]
+	path = themes/papermodmod
+	url = git@github.com:dragsbruh/papermodmod

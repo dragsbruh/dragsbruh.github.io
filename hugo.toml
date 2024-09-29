@@ -1,0 +1,149 @@
+baseURL = 'https://rituals.onthewifi.com/'
+languageCode = 'en-us'
+title = 'dragsbruh'
+theme = 'papermodmod'
+
+[languages.en.taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[[languages.en.menu.main]]
+name = "About"
+url = "about"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Archive"
+url = "archives"
+weight = 5
+
+[[languages.en.menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
+
+
+[[languages.en.menu.main]]
+name = "Series"
+url = "series/"
+weight = 15
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 20
+
+[[languages.en.menu.main]]
+name = "Tools"
+url = "tools/"
+weight = 25
+
+
+[[languages.en.menu.main]]
+name = "GitHub"
+url = "https://github.com/dragsbruh/"
+
+[outputs]
+home = [
+    "HTML",
+    "RSS",
+    "JSON",
+] # FIXME: Fastsearch needs json for searching. Need to fix it.
+
+[params]
+env = "production"
+description = "i write stuff probably come read it"
+author = "dragsbruh"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
+images = ["images/papermod-cover.png"]
+
+[params.profileMode]
+enabled = true
+title = "dragsbruh"
+imageUrl = "/avatar.png"
+imageTitle = "mitsuwii~"
+subtitle = "i write stuff probably come read it"
+imageWidth = 120
+imageHeight = 120
+
+[[params.profileMode.buttons]]
+name = "About"
+url = "about"
+
+[[params.profileMode.buttons]]
+name = "Archives"
+url = "archives"
+
+[[params.profileMode.buttons]]
+name = "Github"
+url = "https://github.com/"
+
+[params.homeInfoParams]
+Title = "hi there hello"
+Content = """
+i do stuff and sometimes write about it come read it
+because we all do things and sometimes we dont know what we are doing
+like for example i am writing this without thinking about it
+so come read it, my love
+"""
+
+[[params.socialIcons]]
+name = "github"
+title = "open my github"
+url = "https://github.com/dragsbruh"
+
+[[params.socialIcons]]
+name = "Instagram"
+title = "i dont know why my instagram is weird"
+url = "https://instagram.com/dragsbruh"
+
+[[params.socialIcons]]
+name = "X"
+title = "see my x"
+url = "https://x.com/dragsbruh"
+
+[[params.socialIcons]]
+name = "YouTube"
+title = "i do anime stuff here"
+url = "https://youtube.com/@legendrags"
+
+[[params.socialIcons]]
+name = "Reddit"
+title = "dont question my life choices"
+url = "https://reddit.com/u/LegenDrags"
+
+[[params.socialIcons]]
+name = "Patreon"
+title = "dump your excess money here"
+url = "https://patreon.com/dragsbruh"
+
+[params.editPost]
+URL = "https://github.com/dragsbruh/dragsbruh.github.io/tree/content"
+Text = "Suggest Changes"
+appendFilePath = true
+
+# [params.assets]
+# disableHLJS = true
+
+# [markup.goldmark.renderer]
+# unsafe = true
+
+# [markup.highlight]
+# noClasses = false
+
+# [services.instagram]
+# disableInlineCSS = true
+
+# [services.twitter]
+# disableInlineCSS = true
